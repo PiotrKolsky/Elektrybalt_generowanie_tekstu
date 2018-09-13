@@ -1,6 +1,7 @@
 Kod elektronicznego 'poety' działającego na bazie drzewa decyzyjnego. Dobrej zabawy!
 
 Przykłady:
+
 Jako tam szlachta na Litwie żyła?  I Klucznik — ja cieszą się z poduszek i pod lamusa na kobiety wz
 nosi: Napoleona Prosić o rękę? a cóż miał w domu podobny rysiowi rannemu, Który był nad». DajrPrysa
 k, razy Krzyknął: «W dyby tego z zanadrza kontusza Panegiryk ogromnym drągiem od wiciny wypadków st
