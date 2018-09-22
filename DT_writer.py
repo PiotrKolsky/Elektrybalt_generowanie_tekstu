@@ -57,3 +57,4 @@ def DT_writer(text, n_letters=8, max_d=30, text_len=1000):
 
 # składnia polecenia: 'tekst inicjujący', ilość liter analizowanych przed prognozowaną, głębokość drzewa, długość pisanego tekstu.
 DT_writer('Jako tam szlachta na Litwie żyła? ', 8, 25, 1500)
+############################################################
