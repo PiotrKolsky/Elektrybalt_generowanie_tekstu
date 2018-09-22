@@ -5,7 +5,7 @@ import random
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
-################################
+###################################################
 # tekst uczący
 os.chdir('/home/sas/Zasoby/Python/Robocze')
 with open('pan-tadeusz-czyli-ostatni-zajazd-na-litwie.txt', 'r') as f:
