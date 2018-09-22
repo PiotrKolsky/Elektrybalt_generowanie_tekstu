@@ -42,16 +42,16 @@ def DT_writer(text, n_letters=8, max_d=30, text_len=1000):
             y_temp = random.choice(list(word_dict.values())) #losowe znaki dla uniknięcia zapętlenia
         else:
             y_temp = classifier.predict([X_pred])[0]
+            y_pred.append(y_temp)
         X_pred = X_pred[1:]
-        X_pred.append(y_temp)
-        y_pred.append(y_temp)
+        X_pred.append(y_temp) 
     # formatowanie tekstu w liniach po 100 znaków
     for e in y_pred:
         text = text + word_dict_inv[e]
     text_f = ''
     for e in text:
         text_f = text_f + e
-        if len(text_f)%100 == 0:
+        if len(text_f) % 100 == 0:
             text_f = text_f + '\n'
     print(text_f)
 
