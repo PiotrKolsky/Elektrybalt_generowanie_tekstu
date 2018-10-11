@@ -32,7 +32,7 @@ def DT_writer(text, n_letters=8, max_d=30, text_len=1000):
         y.append(word_list[i+1][0])
     # trening klasyfikatora
     classifier = DecisionTreeClassifier(criterion='gini', max_depth=max_d) #kryterium podziału gałęzi: gini lub entropy
-    #classifier = RandomForestClassifier(criterion='gini', max_depth=md) #alternatywny algorytm
+    #classifier = RandomForestClassifier(criterion='gini', max_depth=max_d) #alternatywny algorytm
     classifier.fit(np.array(X), y)
     # predycja
     y_pred = []
