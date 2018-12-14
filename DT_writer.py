@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 ###################################################
 # tekst uczący
-os.chdir('/home/sas/Zasoby/Python/Robocze')
+os.chdir('../Robocze')
 with open('pan-tadeusz-czyli-ostatni-zajazd-na-litwie.txt', 'r') as f:
     voc = f.read().replace('\n', ' ')
 
