@@ -1,6 +1,8 @@
 LSTM_writer.py - sieć neuronowa typu LSTM (keras / tensorflow) pisząca przez wybór kolejnych liter i dołączanie ich do zadanego tekstu.
 
-DT_writer.py - kod prostego elektronicznego 'poety' działającego na bazie drzewa decyzyjnego uczonego na grupach n sąsiadujących liter. Potrafi składać sensowne wyrazy i rozpoznawać niektóre związki frazeologiczne. Dobrej zabawy!
+DT_writer.py - kod prostego elektronicznego 'poety' działającego na bazie drzewa decyzyjnego uczonego na grupach n sąsiadujących liter. Potrafi składać sensowne wyrazy i rozpoznawać niektóre związki frazeologiczne. 
+
+Dobrej zabawy!
 
 Przykłady:
 
