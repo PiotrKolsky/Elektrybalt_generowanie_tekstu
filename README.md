@@ -1,6 +1,14 @@
-Kod prostego elektronicznego 'poety' działającego na bazie drzewa decyzyjnego uczonego na grupach n sąsiadujących liter. Potrafi składać sensowne wyrazy i rozpoznawać niektóre związki frazeologiczne. Dobrej zabawy!
+LSTM_writer.py - sieć neuronowa typu LSTM (keras / tensorflow) pisząca przez wybór kolejnych liter i dołączanie ich do zadanego tekstu.
+
+DT_writer.py - kod prostego elektronicznego 'poety' działającego na bazie drzewa decyzyjnego uczonego na grupach n sąsiadujących liter. Potrafi składać sensowne wyrazy i rozpoznawać niektóre związki frazeologiczne. Dobrej zabawy!
 
 Przykłady:
+
+W gospodzie pod lutym turem, należącej do opactwa, siedziało kilku ludzi, słuchając opowiadania wojaka bywalca, który z dalekich stron przybywszy, prawił im o przygodach, jakich na wojnie i w czasie podróży doznał. człek był brodaty, w sile wieku, pleczysty, prawie ogromny, ale wychudły; włosy nosił ujęte w pątlik ...
+
+... w pątlik, czyli w siatkę naszywaną paciorkami; na sobie miał skórzany kubrak. resztę towarzystwa stanowiło dwóch ziemian z okolic krakowa i trzech mieszczanie. w owych czasach nienawiść, jaka dzieliła za czasów łokietkowych miasto od rycerskiego ziemiaństwa, znacznie już była przygasła, mieszczaństwo zaś nosiło głowy górniej niż w wiekach późniejszych. jeszcze ceniono ich gotowość ad concessionem pecuniarum; dlatego też nieraz zdarzało się widzieć w gospodach kupców pijących za pan brat ze szlachty. widziano ich nawet chętnie, bo jako ludzie, u których o gotowy grosz łatwiej, płacili zwykle za herbowych. tak więc siedzieli teraz i rozmawiali, mrugając od czasu do czasu na gospodarz niemiec, w płowym kapturze z kołnierzem wycinanym w zęby, lał im z konwi sytne piwo do glinianych stągiewkie, to przysyę przymy przesiekki, zamki po drodze stawiali i w końcu okrutnie gody i wielka szczęśliwość dla królestwa! prawią też, i to pewna, że król kazał całą łożnicę królowej złotem
+
+... w pątlik, czyli w siatkę naszywaną paciorkami; na sobie miał skórzany kubrak. resztę towarzystwa stanowiło dwóch ziemian z okolic krakowa i trzech mieszczanie. w owych czasach nienawiść, jaka dzieliła za czasów wo. pas więc niem w rotem tuż nie bracie, gdzie był, bo go już nie ma. hej, jeszcze za czasów łokietkowych miasto od rycerskiego ziemiaństwa, znacznie już była przygasła, mieszczaństwo zaś nosiło głowy górniej niż w wiekach późniejszych. jeszcze ceniono ich gotowość ad concessionem pecuniarum; dlatego też nieraz zdarzało się widzieć w gospodach kupców pijących za pan brat ze szlachty. widziano ich nawet chętnie, bo jako ludzie, u których o gotowy grosz łatwiej, płacili zwykle za herbowych. tak więc siedzieli teraz i rozmawiali, mrugając od czasu do czasu na gospodarz niemiec, w płowym kapturze z kołnierzem wycinanym w zęby, lał im z konwi sytne piwo do glinianych stągiewek i nasłuchiwał ciekawie przygód wojennych. siedział młodzieńca, który z dalekich stron przybywszy, prawił im o przygodach, jakich świat dotąd nie widział. kumotrze gamroth, nie przerywam ja. jeszcze ceniono ich gotowość ad concessionem pecuniarum; dlatego też nieraz zdarzało się widzieć w gospodach kupców pijących za pan brat ze szlachty. widziano ich nawet chętnie, bo jako ludzie, u których o gotowy grosz łatwiej, płacili zwykle za herbowych
 
 Jako tam szlachta na Litwie żyła?     Zabiłem wielkie za obrazku tym była prawdzie jednym razem wra
 cało towarzyszów w domu pod dworu wpada szlachta braty za twój rzędy, Obmyśla wyprawa króla przedmi
@@ -85,7 +93,7 @@ w posadach. Kule miesiły tę odsapnąć.  — Gdzie tam czekać… Nasze polski
  tak wolno, ale za to rano połączeniem brwi wzniecając postrach i zarzuciła się na niego z prośbą, 
 bym ich ratować i ojcem jej stać się na niego z prośbą, bym ich ratować i ojcem jej stać się na nie
 go z prośbą, bym ich ratować i ojcem jej stać się na niego z prośbą, bym ich ratować i ojcem jej st
-ać się na niego z prośbą, bym ich ratow
+ać się na niego z prośbą, bym ich ratował
 
 Szlachic dziarsko wąsa podkręcił  rzekł Zagłoba — abrapiał jednak wstał już na koniec zarumienia się
  w pobliżu Pragi powiadał mi pochodarcyr”dza na nowo w króla uczciwością w twarzy, a z obliczambuł 
