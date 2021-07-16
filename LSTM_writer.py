@@ -17,7 +17,7 @@ from keras.layers import LSTM
 from keras.layers import Dropout
 from keras.callbacks import EarlyStopping
 
-os.chdir('/home/piotr/Zasoby/Python/Work')
+os.chdir('.../Work')
 
 
 ## Wykonanie ramki danych uczących dla sieci LSTM
@@ -102,18 +102,15 @@ def story_writing( X_start, pred_len = 1000, retro_start = -10, diff_letter = 0 
 n_letters = 10
 
 if __name__ == "__main__":
-
     X, y, df = data_creation( os.getcwd()+'/krzyzacy1.txt', 4000, n_letters )
-    
+  
     model = model_build( X.shape, y.shape )
-    
     model.fit(X, y, 
               epochs = 60, 
               batch_size = 10, 
               verbose = 1, 
               callbacks=[ EarlyStopping( monitor='val_loss', mode='min', min_delta=0.005, 
                                         restore_best_weights=True, verbose=1, patience=2 ) ] )
-    
     #joblib.dump(model,'model_lstm.pkl')
     #model = joblib.load('model_lstm.pkl')
    
